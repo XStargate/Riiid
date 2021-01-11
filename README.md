@@ -8,4 +8,4 @@ train_SAKT.py: train the SAKT model
 main.py: main code to evaluate the test data based on LightGBM model and SAKT model.  
 
 The final inference is blended by both LightGBM and SAKT models:  
-0.7*LightGBM + 0.3*SAKT
+0.7 * LightGBM + 0.3 * SAKT
